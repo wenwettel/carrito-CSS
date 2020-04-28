@@ -22,6 +22,6 @@ function watchFiles() {
 
 //Registrar funciones como tareas
 
-//task: recibe como parametros el nombre q queremos para esa tarea y la funcion de la tarea.(que ya creamos arriba)
+/*task: recibe como parametros el nombre q queremos para esa tarea y la funcion de la tarea.que ya creamos arriba*/
 gulp.task('css', css); 
 gulp.task('watch', watchFiles);

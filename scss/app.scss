@@ -1,4 +1,6 @@
-$rojo: blue;
-body {
-    background-color: $rojo;
-}
+/*Importar otros archivos
+el orden es importante
+primero las variables para que existan en los demas componentes*/
+@import 'variables';
+@import 'mixins';
+@import 'custom';
